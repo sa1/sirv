@@ -7,7 +7,7 @@ const access = require('local-access');
 const tinydate = require('tinydate');
 const toPort = require('get-port');
 
-const PAD = '  ';
+const PAD = '[kshiftapp] ';
 const { HOST, PORT } = process.env;
 const stamp = tinydate('{HH}:{mm}:{ss}');
 
